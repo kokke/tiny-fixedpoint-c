@@ -33,7 +33,7 @@ You can create new fixed-point variables using `fp_new` or the (more convenient)
 
 `fp_new` takes an integer-part and a decimal-part. For the mathematical constant 'Pi', you would call `fp_new(3 * SCALE, 14159264)` and need to be very careful with scaling of the numbers.
 
-You can also use the macro `fp`. E.g. `fp(3,141592653589793)` creates a fixed-point version of PI that is scaled automatically.
+You can also use the macro `fp`. E.g. `fp(3,141592653589793)` creates a fixed-point version of PI that is scaled/truncated automatically.
 
 There is some macro magic to allow this, and the `fp`-macro only works with numerals, not variables. You can also just scale the numbers manually.
 
