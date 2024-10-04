@@ -1,3 +1,5 @@
+![CI](https://github.com/kokke/tiny-fixedpoint-c/actions/workflows/c-cpp.yml/badge.svg)
+
 # fixedpoint-c
 
 ## Fixed-point arithmetic in C99
